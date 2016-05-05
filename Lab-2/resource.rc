@@ -1,0 +1,33 @@
+
+#include "resource.h"
+#include <windows.h>
+
+IDD_DIALOG DIALOG DISCARDABLE  83, 35, 180, 100
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 11, "Arial"
+CAPTION "Info"
+BEGIN
+    DEFPUSHBUTTON   "&OK", IDOK, 67, 75, 50, 14
+    ICON IDI_ICON, IDC_STATIC, 80, 10, 30, 30
+    CTEXT "Best football team", IDC_STATIC, 7, 40, 165, 10
+
+END
+
+IDM_MENU MENU DISCARDABLE
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Exit              Ctrl+E", ID_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Change background color", ID_BCKG
+    END
+    POPUP "&Info"
+    BEGIN
+        MENUITEM "&Info             Ctrl+I", ID_INFO
+    END
+END
+
+IDI_ICON ICON DISCARDABLE "RM.ico"
+ID_CURSOR CURSOR DISCARDABLE "button.cur"
