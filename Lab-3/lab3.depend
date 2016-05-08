@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1460210680 source:c:\users\asd\desktop\faf-141-oxana-dunav-master\wp\lab#3\main.cpp
+	<tchar.h>
+	<windows.h>
+	<windowsx.h>
+	"resource.h"
+
+1460210680 c:\users\asd\desktop\faf-141-oxana-dunav-master\wp\lab#3\resource.h
+
+1462713990 source:c:\users\asd\desktop\lab3\main.cpp
+	<tchar.h>
+	<windows.h>
+	<windowsx.h>
+	"resource.h"
+
+1462712133 c:\users\asd\desktop\lab3\resource.h
+
